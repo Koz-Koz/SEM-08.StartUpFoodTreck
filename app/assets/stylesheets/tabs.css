@@ -1,0 +1,63 @@
+body {
+  font-family: 'Gudea', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #e6e6e6
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Tabs Nav styles*/
+
+#tabsContainer {
+  padding: 20px;
+}
+
+.tabs-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-nav li {
+  display: inline-block;
+  background: #34495E;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #34495E;
+  margin-right: 5px;
+}
+
+.tabs-nav a {
+  display: block;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #fff;
+}
+/* Tabs Active state styles*/
+
+.tabs-nav li.active {
+  background: #FFF;
+}
+
+.tabs-nav li.active a {
+  color: inherit;
+}
+/*Tabs Content styles*/
+
+.tabs-content {
+  border: 1px solid #34495E;
+  padding: 10px;
+  background: #FFF;
+  margin-top: -1px;
+  overflow: hidden;
+}
+
+.tabs-content IMG {
+  margin-right: 10px;
+}
+/* Hide All the content divs EXCEPT the first one */
+
+.tabs-content div:not(:first-child) {
+  display: none;
+}
