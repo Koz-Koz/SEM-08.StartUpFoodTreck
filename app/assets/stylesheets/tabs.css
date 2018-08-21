@@ -1,3 +1,7 @@
+h1 {
+  margin-left: 350px;
+}
+
 body {
   font-family: 'Gudea', Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -6,6 +10,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #46F5F6;
 }
 
 /* Tabs Nav styles*/
