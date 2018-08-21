@@ -9,6 +9,7 @@ gem 'rails', '~> 5.2.1'
 gem 'puma', '~> 3.11'
 # Jquery3
 gem 'jquery-rails'
+gem 'rake', '~> 11.2', '>= 11.2.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
