@@ -9,7 +9,6 @@ gem 'rails', '~> 5.2.1'
 gem 'puma', '~> 3.11'
 # Jquery3
 gem 'jquery-rails'
-gem 'rake', '~> 11.2', '>= 11.2.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -51,6 +50,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'sqlite3'
 end
+
+group :production do
+  gem 'pg'
+end 
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
